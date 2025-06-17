@@ -1,1 +1,31 @@
-<p>header works!</p>
+<header class="bg-light shadow-sm py-3">
+  <div class="container d-flex align-items-center justify-content-between">
+    <!-- Logo -->
+    <div class="d-flex align-items-center">
+      <span class="logo-text">LiWebbrary</span>
+
+    </div>
+
+    <!-- Barra de navegação -->
+    <nav class="d-flex gap-4">
+      <a routerLink="/cliente" routerLinkActive="fw-bold text-primary">Início</a>
+      <a routerLink="/cliente/livros" routerLinkActive="fw-bold text-primary">Livros</a>
+      <a routerLink="/cliente/biblioteca" routerLinkActive="fw-bold text-primary">Biblioteca</a>
+    </nav>
+
+    <!-- Barra de pesquisa -->
+    <div class="flex-grow-1 mx-4">
+      <input type="text" class="form-control" placeholder="Pesquisar livros...">
+    </div>
+
+    <!-- Ícones -->
+    <div class="d-flex align-items-center">
+      <a routerLink="/cliente/login" class="text-dark me-3" routerLinkActive="text-primary">
+        <i class="bi bi-person-circle fs-4"></i>
+      </a>
+      <a routerLink="/cliente/carrinho" class="text-dark" routerLinkActive="text-primary">
+        <i class="bi bi-cart3 fs-4"></i>
+      </a>
+    </div>
+  </div>
+</header>

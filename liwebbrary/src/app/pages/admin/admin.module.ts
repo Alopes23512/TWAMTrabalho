@@ -5,8 +5,9 @@ import { AdminRoutingModule } from './admin-routing.module';
 import { AdminComponent } from './admin.component';
 import { LivrosComponent } from './livros/livros.component';
 import { CategoriasComponent } from './categorias/categorias.component';
-import { UsuariosComponent } from './usuarios/usuarios.component';
+import { UsuariosComponent } from './utilizador/usuarios.component';
 import { ComprasComponent } from './compras/compras.component';
+import { LayoutComponent } from './layout/layout.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ComprasComponent } from './compras/compras.component';
     LivrosComponent,
     CategoriasComponent,
     UsuariosComponent,
-    ComprasComponent
+    ComprasComponent,
+    LayoutComponent
   ],
   imports: [
     CommonModule,

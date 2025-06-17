@@ -1,0 +1,15 @@
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+nav a:hover {
+  color: #007bff;
+}
+.logo-text {
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #f9e7d5; /* tom creme claro */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+  margin-right: 100px;
+}

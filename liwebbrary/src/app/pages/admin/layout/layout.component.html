@@ -1,0 +1,25 @@
+<div class="d-flex" style="min-height: 100vh;">
+  <!-- Sidebar -->
+  <nav class="bg-dark text-white p-3" style="width: 250px;">
+    <h4 class="text-center mb-4">Admin</h4>
+    <ul class="nav flex-column gap-2">
+      <li class="nav-item">
+        <a routerLink="/admin/livros" routerLinkActive="active" class="nav-link text-white"> Livros</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/admin/categorias" routerLinkActive="active" class="nav-link text-white">Categorias</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/admin/usuarios" routerLinkActive="active" class="nav-link text-white"> Utilizadores</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/admin/compras" routerLinkActive="active" class="nav-link text-white"> Compras</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Conteúdo principal -->
+  <main class="flex-grow-1 p-4 bg-light">
+    <router-outlet></router-outlet>
+  </main>
+</div>
